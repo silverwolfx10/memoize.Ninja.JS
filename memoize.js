@@ -45,7 +45,7 @@ Ninja.module('$memoize', ['$apply'], function ($apply) {
   };
   
   /**
-   * Revelacao do servico $lambda, encapsulando a visibilidade das funcoes
+   * Revelacao do servico $memoize, encapsulando a visibilidade das funcoes
    * privadas
    */
   return memoize;
