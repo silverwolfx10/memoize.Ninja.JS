@@ -42,7 +42,7 @@ this.Ninja.module('$memoize', ['$apply'], function ($apply) {
       return cache[JSON.stringify(arguments)] || (cache[JSON.stringify(arguments)] = $apply(a, arguments));
     };
     
-  };
+  }
   
   /**
    * Revelacao do servico $memoize, encapsulando a visibilidade das funcoes
