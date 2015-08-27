@@ -1,0 +1,25 @@
+{
+  "name": "memoize.Ninja.JS",
+  "version": "0.0.0",
+  "authors": [
+    "Cleber de Moraes Goncalves <cleber.programmer@hotmail.com>"
+  ],
+  "description": "Uma técnica útil para otimização de cache os resultados das chamadas de função de tal forma que as pesquisas longos ou cálculos recursivos caros pode ser minimizado sempre que possível",
+  "main": "memoize.js",
+  "keywords": [
+    "javascript"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/Bibizzy/memoize.Ninja.JS",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "Ninja.JS": "*",
+    "apply.Ninja.JS": "*"
+  }
+}

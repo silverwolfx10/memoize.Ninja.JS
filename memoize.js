@@ -13,7 +13,7 @@
  *        });
  * 
  */
-Ninja.module('$memoize', ['$apply'], function ($apply) {
+this.Ninja.module('$memoize', ['$apply'], function ($apply) {
   
   /**
    * Uma técnica útil para otimização de cache os resultados das chamadas de função de
